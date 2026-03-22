@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 10px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: yellow;
+}
